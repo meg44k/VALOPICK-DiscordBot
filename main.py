@@ -1,4 +1,3 @@
-import discord
 import discord.app_commands
 import random
 import datetime
