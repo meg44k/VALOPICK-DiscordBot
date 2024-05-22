@@ -30,7 +30,7 @@ async def map(ctx:discord.Integration):
     map_list = ["アセント","ブリーズ","アイスボックス","バインド","スプリット","ロータス","サンセット"]
     map_length = len(map_list)
     random_map = random.randint(0,map_length-1)
-    await ctx.response.send_message(f"{random_map}です")
+    await ctx.response.send_message(f"{map_list[random_map]}です")
 
 @client.event
 async def on_ready():
